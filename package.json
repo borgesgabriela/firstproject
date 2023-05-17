@@ -2,7 +2,7 @@
   "name": "thebatman-react",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://borgesgabriela.github.io/thebatman-react.git",
+  "homepage": "https://github.com/borgesgabriela/batmanproject.git",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
