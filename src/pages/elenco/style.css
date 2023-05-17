@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+
+.persona-cards-content {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 20px;
+    column-gap: 40px;
+}
+
+.actor {
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+    color: #fff;
+    font-size: 17px;
+    font-family: 'kdam Thmor Pro', sans-serif;
+}
+
+.actor:hover {
+    transform: scale(1.02);
+}
+
+.image-1{
+    background-image:url('https://f.i.uol.com.br/fotografia/2022/06/21/165583078762b1f903a0f05_1655830787_3x2_md.jpg')
+}
+
+.image-2{
+    background-image:url('https://s2.glbimg.com/F4xdNmgcrQ3dCqnE_ZMXpt_FHYc=/0x0:4000x2667/924x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_e7c91519bbbb4fadb4e509085746275d/internal_photos/bs/2022/6/0/7mn4ELSSSbgkBxiFJgSg/gettyimages-1436902177.jpg')
+}
+
+.image-3{
+    background-image:url('https://media.vanityfair.com/photos/637bf12c49dc73a8dadb6769/3:2/w_1998,h_1332,c_limit/paul-dano-little-gold-men.jpg')
+}
+
+.image-4{
+    background-image:url('https://sobresagas.com.br/wp-content/uploads/2022/05/colin-farrell-e-suas-5-atuacoes-inesqueciveis-no-cinema-voce-vai-se-surpreender-1200x900.jpg')
+
+}
+
+@media(max-width:768px){
+.persona-cards-content{
+    grid-template-columns: 1fr;
+    margin-top: 5px;
+}
+}

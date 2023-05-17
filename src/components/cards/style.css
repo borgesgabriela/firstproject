@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+.actor-cards-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    background-color: #000;
+}
+
+.cards-content{
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
+    column-gap: 40px;
+}
+
+.card {
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+    color: #fff;
+    font-size: 17px;
+    font-family: 'kdam Thmor Pro', sans-serif;
+
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+.banner-1{
+    background-image:url('https://classic.exame.com/wp-content/uploads/2022/04/batman.jpg?quality=70&strip=info&w=1024')
+}
+
+.banner-2{
+    background-image:url('https://pbs.twimg.com/media/FMOk4EiXEAURgip.jpg')
+}
+
+.banner-3{
+    background-image:url('https://2.bp.blogspot.com/-N9DtMsBCAwI/XbtdLT8foBI/AAAAAAACzVU/bTyfrBq-ApwVG8DUfRmWYVlvKyzXJ-08wCK4BGAYYCw/s1600/jeffreywrights.jpg')
+}
+
+@media(max-width:768px) {
+
+.cards-content {
+    grid-template-columns: 1fr;
+    margin-top: 5px;
+    }
+}
