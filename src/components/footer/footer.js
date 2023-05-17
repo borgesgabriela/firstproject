@@ -7,7 +7,7 @@ function Footer(){
     return(  
         <>    
         <footer>
-            <img id="logo" src={Logo} />
+            <img id="logo" src={Logo} alt= ""/>
             <span>Todos os direitos reservados ©</span>
             <span>Desenvolvido por: Gabriela Borges</span>
         
