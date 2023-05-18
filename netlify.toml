@@ -1,6 +1,6 @@
 [build]
   command = "npm run build"
-  publish = "build/static"
+  publish = "build"
 
 [redirects]
   [[redirects.rules]]
