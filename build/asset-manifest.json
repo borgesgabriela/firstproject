@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/borgesgabriela/firstproject.git/static/css/main.7bfa6de9.css",
+    "main.js": "/borgesgabriela/firstproject.git/static/js/main.afef87cb.js",
+    "static/media/video.mp4": "/borgesgabriela/firstproject.git/static/media/video.5235a07b1c2c2d15cf3d.mp4",
+    "static/media/thor.jpg": "/borgesgabriela/firstproject.git/static/media/thor.d437a7bac16134dab467.jpg",
+    "static/media/hulk.jpg": "/borgesgabriela/firstproject.git/static/media/hulk.603c6dfd7b46a2372ccc.jpg",
+    "static/media/homem-de-ferro.jpg": "/borgesgabriela/firstproject.git/static/media/homem-de-ferro.47bef9ca4e8ddbc350a7.jpg",
+    "index.html": "/borgesgabriela/firstproject.git/index.html",
+    "main.7bfa6de9.css.map": "/borgesgabriela/firstproject.git/static/css/main.7bfa6de9.css.map",
+    "main.afef87cb.js.map": "/borgesgabriela/firstproject.git/static/js/main.afef87cb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7bfa6de9.css",
+    "static/js/main.afef87cb.js"
+  ]
+}
